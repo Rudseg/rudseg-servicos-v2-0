@@ -6,10 +6,10 @@
     <title>Rudseg Serviços</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
-    
+   
     <!-- Leaflet CSS & JS for Maps -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
     <script>
       tailwind.config = {
@@ -20,53 +20,26 @@
               mono: ['Roboto Mono', 'monospace'],
             },
             colors: {
-              emerald: {
-                50: '#ecfdf5',
-                100: '#d1fae5',
-                500: '#10b981',
-                600: '#059669',
-                700: '#047857',
-                900: '#064e3b',
-              },
-              gray: {
-                50: '#f9fafb',
-                100: '#f3f4f6',
-                800: '#1f2937',
-                900: '#111827',
-              }
+              emerald: {50:'#ecfdf5',100:'#d1fae5',500:'#10b981',600:'#059669',700:'#047857',900:'#064e3b'},
+              gray: {50:'#f9fafb',100:'#f3f4f6',800:'#1f2937',900:'#111827'}
             }
           }
         }
       }
     </script>
     <style>
-      /* Custom Scrollbar */
-      ::-webkit-scrollbar {
-        width: 8px;
-      }
-      ::-webkit-scrollbar-track {
-        background: #f1f1f1; 
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #cbd5e1; 
-        border-radius: 4px;
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: #94a3b8; 
-      }
-      /* Leaflet overrides */
-      .leaflet-popup-content-wrapper {
-        border-radius: 8px;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-      }
-      .leaflet-container {
-        font-family: 'Inter', sans-serif;
-      }
+      ::-webkit-scrollbar {width:8px}
+      ::-webkit-scrollbar-track {background:#f1f1f1}
+      ::-webkit-scrollbar-thumb {background:#cbd5e1;border-radius:4px}
+      ::-webkit-scrollbar-thumb:hover {background:#94a3b8}
+      .leaflet-popup-content-wrapper {border-radius:8px;box-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06)}
+      .leaflet-container {font-family:'Inter',sans-serif}
     </style>
-<link rel="stylesheet" href="./index.css">
-  <script type="module" crossorigin src="/rudseg-servicos-v2-0/assets/index-CcLumkER.js"></script>
-</head>
+
+    <!-- Arquivo JS gerado pelo build – esse já contém o CSS -->
+    <script type="module" crossorigin src="/rudseg-servicos-v2-0/assets/index-CcLumkER.js"></script>
+  </head>
   <body class="bg-gray-100 text-gray-800 antialiased">
-    <div id="root"></div>
-</body>
+    <div id="root"></div>
+  </body>
 </html>
